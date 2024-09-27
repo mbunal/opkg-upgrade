@@ -1,3 +1,8 @@
+### System install to `/usr/sbin/opkg-upgrade` (no .sh extension) :
+Run with `opkg-upgrade` after downloading 
+```bash
+wget --no-check-certificate 'https://raw.githubusercontent.com/tavinus/opkg-upgrade/master/opkg-upgrade.sh' -O "/usr/sbin/opkg-upgrade" && chmod 755 "/usr/sbin/opkg-upgrade"
+```
 # opkg-upgrade
 List and install OpenWRT / LEDE opkg upgradable packages.  
 
